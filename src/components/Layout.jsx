@@ -10,6 +10,7 @@ const Layout = ({children}) => {
 				<Link to="/">JAMstack</Link>
 			</header>
 			<main>{children}</main>
+			<footer> © Digital Villa | All Rights Reserved. </footer>
 		</IdentityContextProvider>
 	)
 }

@@ -11,9 +11,6 @@ const Private = ({ component: Component, location, ...rest }) => {
 		return null;
 	}
 
-	console.log('Unauthorized ');
-
-
   return ( <Component {...rest} />)
 }
 
